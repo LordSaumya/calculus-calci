@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run Calculus Calci.py
+web: sh setup.sh && streamlit run CalculusCalci.py
