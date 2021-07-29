@@ -18,5 +18,5 @@ if (rawInp):
     st.write("Indefinite Integral:")
     st.latex("\int f(x) dx = " + str(latex(simplify(integrate(symInp,x)))) + " + C")
     st.write("5th order Maclaurin Series:")
-    MaclaurinSeries = (symInp.subs(x,0)) + (x*(diff(symInp,x)).subs(x,0)) + (x**2*(diff(diff(symInp,x),x)).subs(x,0)/2) + (x**3*(diff(diff(diff(symInp,x),x),x)).subs(x,0)/6) + (x**4*(diff(diff(diff(diff(symInp),x),x),x)).subs(x,0)/24) + (x**5*(diff(diff(diff(diff(diff(symInp,x)),x),x),x)).subs(x,0)/120)
+    MaclaurinSeries = (symInp.subs(x,0)) + (x*(diff(symInp,x)).subs(x,0)) + (x**2*(diff(diff(symInp,x),x)).subs(x,0)/2) + (x**3*(diff(diff(diff(symInp,x),x),x)).subs(x,0)/6) + (x**4*(diff(diff(diff(diff(symInp,x),x),x),x)).subs(x,0)/24) + (x**5*(diff(diff(diff(diff(diff(symInp,x),x),x),x),x)).subs(x,0)/120)
     st.latex(str(latex(simplify(MaclaurinSeries))))
