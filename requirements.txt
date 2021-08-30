@@ -1,4 +1,0 @@
-latex==0.7.0
-streamlit==0.82.0
-latex2sympy2==1.6.2
-sympy==1.8
