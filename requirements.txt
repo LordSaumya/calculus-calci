@@ -1,0 +1,5 @@
+sympy==1.8
+latex2sympy2==1.6.2
+latex==0.7.0
+humanize==3.11.0
+streamlit==0.82.0
