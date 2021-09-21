@@ -12,7 +12,7 @@ def tay(func,ord,cc):
     return tayS
 
 st.title("Calculus Calci")
-st.sidebar.write("Enter your expression, and this will give you the first two derivatives, the indefinite integral (with respect to x), and the fifth order of its Maclaurin series.\n\n -    Saumya Shah")
+st.sidebar.write("Enter your expression, and this will give you the first two derivatives, the indefinite integral (with respect to x), and the Taylor series to the nth term at the provided centre of convergence.\n\n -    Saumya Shah")
 st.write("Enter f(x):")
 rawInp = st.text_input("Please enter your function in latex and press enter (do not use 'c')")
 st.write("Enter order of Taylor Polynomial:")
